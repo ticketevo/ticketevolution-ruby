@@ -1,0 +1,3 @@
+Ticketevolution Ruby API
+===
+A ruby gem to interact with the TicketEvolution API via ruby.  Library is currently very much in alpha.
