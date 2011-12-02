@@ -4,7 +4,7 @@ require 'pp'
 require 'base64'
 require 'openssl'
 
-module Ticketevolution
+module TicketEvolution
 	class TicketEvolution
 	  include HTTParty
 

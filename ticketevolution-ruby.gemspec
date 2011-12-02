@@ -3,15 +3,15 @@ $:.push File.expand_path("../lib", __FILE__)
 require "ticketevolution-ruby/version"
 
 Gem::Specification.new do |s|
-  s.name        = "ticketevolution-ruby"
-  s.version     = Ticketevolution::Ruby::VERSION
+  s.name        = "ticketevolution"
+  s.version     = TicketEvolution::VERSION
   s.authors     = ["Derek Dahmer"]
   s.email       = ["derekdahmer@gmail.com"]
   s.homepage    = ""
   s.summary     = "TicketEvolution API gem"
   s.description = "TicketEvolution API gem"
 
-  s.rubyforge_project = "ticketevolution-ruby"
+  s.rubyforge_project = "ticketevolution"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
