@@ -1,4 +1,4 @@
-require "ticketevolution-ruby/version"
+require "ticketevolution/version"
 require 'httparty'
 require 'pp'
 require 'base64'
